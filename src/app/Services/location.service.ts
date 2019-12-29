@@ -9,7 +9,7 @@ export class LocationService {
 
   constructor(private httpClient: HttpClient) { }
 
-  serverlink = "http://localhost:8080"
+  serverlink = "http://104.211.8.64:8086"
 
   getPosition(): Promise<any>
   {

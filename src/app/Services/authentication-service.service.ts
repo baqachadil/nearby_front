@@ -8,7 +8,7 @@ import * as jwt_decode from 'jwt-decode';
 })
 export class AuthenticationServiceService {
 
-  serverlink = "http://localhost:8080"
+  serverlink = "http://104.211.8.64:8086"
   jwtToken = null
   constructor(private httpClient: HttpClient) { }
 
